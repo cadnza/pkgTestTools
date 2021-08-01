@@ -27,8 +27,8 @@ wrapper <- function(functionCall){
 		)
 	]
 	for(x in pendingFiles){
-		load(normalizePath(file.path(.GlobalEnv$.vwDir,x)),envir=.GlobalEnv)
-		utils::View(.GlobalEnv$view_x,.GlobalEnv$view_title)
+		load(normalizePath(file.path(.GlobalEnv$.vwDir,x)))
+		View(view_x,view_title)
 	}
 	# Remove temporary directory
 	eval(rmTestDir)
