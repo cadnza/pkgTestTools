@@ -1,0 +1,14 @@
+Package: pkgTestTools
+Type: Package
+Title: Package Testing Tools
+Version: 1.0.0
+Author: Jon Dayley
+Maintainer: Jon Dayley <jonathandayley@gmail.com>
+Description: Extended tools for testing R packages
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    devtools,
+    stringr,
+    utils
