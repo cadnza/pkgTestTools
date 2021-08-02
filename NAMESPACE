@@ -1,1 +1,2 @@
 exportPattern("^vw_?.*$")
+export("resource")
